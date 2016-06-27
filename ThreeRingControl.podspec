@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/carolight/ThreeRingControl.git", :tag => "1.0.0" }
 
   s.source_files  = "ThreeRingControl", "ThreeRingControl/**/*.{h,m,swift}"
-  s.resources = "ThreeRingControl/*.mp3"
+  s.resources = "ThreeRingControl/ThreeRingView/*.mp3"
 
 end
